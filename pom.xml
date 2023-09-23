@@ -6,8 +6,9 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
-  <sonar.login>admin</sonar.login>
-  <sonar.password>admin1</sonar.password>
+  <properties>
+	  <sonar.token>squ_a26d1cbb8e6296a53aef1ed649ebb0fb9f22865d</sonar.token>
+   </properties>
   <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
